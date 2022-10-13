@@ -1,0 +1,106 @@
+div#hora{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:inherit;
+}
+nav{
+    background-color: white;
+    border-bottom: 2px solid red;
+}
+span.barra{
+    position: relative;
+}
+.container{
+    text-align: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px auto;
+}
+.qtd{
+    font-size: 90px;
+}
+#bar{
+    min-width: 400px;
+}
+.card{
+    margin: 10px auto;
+    min-width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 1px black;
+}
+.card{
+    margin: 10px auto;
+    min-width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 1px black;
+}
+.card:hover{
+    background-color: rgba(255, 255, 0, .1);
+    border: 1px solid red;
+}
+.card:hover .title{
+    background-color: rgba(255, 255, 0, .1);
+
+}
+.orange{
+    background-color: rgba(255, 165, 0,.5);
+}
+.person{
+    width:80px;
+    height: 80px;
+    margin-right: -20px;
+}
+#fem{
+    position: absolute;
+    left: 10px;
+    top:40px;
+}
+#masc{
+    position: absolute;
+    left: 225px;
+    top:140px;
+}
+table{
+    width:80%;
+    margin: auto;
+}
+.marg{
+    margin-top: 25px;
+}
+.red{
+    background-color: rgba(255, 18, 18,.5);
+}
+#hora{
+    font-size: 20px;
+}
+h3{
+    text-shadow: 1px 2px 2px gray;
+}
+.title{
+    margin-top: 3px;
+}
+.divid{
+    width:45%;
+    box-shadow: 1px 1px 1px black;
+}
+#altura, #altura2{
+    height: 550px;
+}
+.left{
+    text-align: left;
+}
+.alt{
+    height: 30px;
+}
+
+@media screen and (max-width: 770px) {
+    .hidden{
+        display: none;
+    }
+    table{
+        font-size: 10px;
+    }
+  }

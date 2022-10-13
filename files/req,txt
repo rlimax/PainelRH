@@ -1,0 +1,20 @@
+A partir da base de dados de cadastro de funcionários o gestor quer um ou mais painéis com as seguintes informações, 
+com prazo de amanhã (13/10/2022) às 12h para a entrega do link da publicação.
+
+    Quantidade de Funcionários
+    Quantidade de Funcionários por Sexo (Qtde + %)
+    Quantidade de Funcionários por Faixa Etária (0-18, 18-30, 30-45, 45+)
+    Quantidade de Funcionários por Tempo de Serviço (0-1,2-5,6-10, 10+)
+    Média Salarial
+    Maior Salário
+    Menor Salário
+    Média Salarial por Cargo
+    Gastos com Salário de cada Setor
+    Ranquear os Cargos/Funcionários por Salários
+    Ranquear os Cargos/Funcionários por Tempo de Serviço
+
+A identidade visual a ser utilizada deve ser a mesma do Grupo Seriös.
+
+Branco, Cinza, Preto e suas variantes, e também Vermelho (#960000),
+
+Atenciosamente
