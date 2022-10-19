@@ -176,7 +176,7 @@ let raio = 40;
 
 
 let colorArc = d3.scaleOrdinal()
-            .range(["yellow", "rgb(241, 182, 182)"]);
+            .range(["red", "black"]);
 
 let canvas3 = d3.select("#arc")
                 .append("svg")
@@ -205,5 +205,8 @@ arcs.append("path")
 arcs.append("text")
     .attr("transform", (d)=> "translate("+arc.centroid(d)+")")
     .attr("text-anchor", "middle")
-    .attr("font-size", "20px")
+    .attr("dy","7px")
+    .attr("font-size", "27px")
+    .style("fill","white")
+    .style("bgcolor","blue")
     .text((d)=> d.data);

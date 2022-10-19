@@ -1,3 +1,6 @@
+body{
+    background-color: rgba(125,125,125,.2);
+}
 div#hora{
     width: 100%;
     display:flex;
@@ -24,12 +27,6 @@ span.barra{
 }
 #bar{
     min-width: 400px;
-}
-.card{
-    margin: 10px auto;
-    min-width: 300px;
-    height: 200px;
-    box-shadow: 1px 1px 1px black;
 }
 .card{
     margin: 10px auto;
@@ -71,7 +68,7 @@ table{
     margin-top: 25px;
 }
 .red{
-    background-color: rgba(241, 182, 182,.8);
+    background-color: rgba(241, 0, 0,.8);
 }
 #hora{
     font-size: 20px;
@@ -92,15 +89,30 @@ h3{
 .left{
     text-align: left;
 }
+.center{
+    text-align: center;
+}
 .alt{
     height: 30px;
 }
-
+.logo{
+    width: 90px;
+    height: 90px;
+}
 @media screen and (max-width: 770px) {
     .hidden{
         display: none;
     }
-    table{
-        font-size: 10px;
+    #altura, #altura2{
+        width: 100%;
     }
   }
+@media screen and (max-width: 1200px){
+    
+    table{
+        font-size: 12px;
+    }
+    .box{
+        width: 100%;
+    }
+}

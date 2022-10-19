@@ -12,10 +12,10 @@ function atual(){
 	if(seg<=9){
 		seg = "0"+seg;
 	}
-	document.getElementById('hora').innerHTML = "<img src=\"./img/logo.jpg\"></img>"+
+	document.getElementById('hora').innerHTML = "<img class=\"logo\" src=\"./img/logo.png\"></img><h3>RECURSOS HUMANOS</h3>"+
                                                 //"<span class=\"barra\">&nbsp&nbsp Hora<br>"+
 												"<span>"+
-												"<h3>Painel RH</h3>&nbsp&nbsp&nbsp&nbsp"+
+												"&nbsp&nbsp&nbsp&nbsp"+
                                                 hora+":"+min+":"+seg+
                                                 "</span>";
 }
