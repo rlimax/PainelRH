@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(125,125,125,.2);
+    background-color: rgba(0,0,0,.3);
 }
 div#hora{
     width: 100%;
@@ -33,14 +33,19 @@ span.barra{
     min-width: 300px;
     height: 200px;
     box-shadow: 1px 1px 1px black;
+    transition: .3s linear;
 }
 .card:hover{
-    background-color: rgba(255, 255, 0, .1);
+    
     border: 1px solid red;
+    transform:scale(1.05)
 }
 .card:hover .title{
-    background-color: rgba(255, 255, 0, .1);
+    background-color: rgba(255, 0, 0, .3);
 
+}
+#altura:hover, #altura2:hover{
+    margin-top: 30px;
 }
 .orange{
     background-color: rgba(255, 165, 0,.5);
@@ -69,6 +74,7 @@ table{
 }
 .red{
     background-color: rgba(241, 0, 0,.8);
+    color: white;
 }
 #hora{
     font-size: 20px;
