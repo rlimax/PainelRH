@@ -5,4 +5,4 @@ Protótipo de um painel de indicadores para o setor de RH
 - D3.js (básico)
 - Relógio
 
-<img src="./painel.JPG">
+<img src="./img/painel.JPG">
